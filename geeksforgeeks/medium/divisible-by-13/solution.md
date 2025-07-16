@@ -1,6 +1,6 @@
 # Divisible by 13
 
-**Link:** https://www.geeksforgeeks.org/batch/skill-up-dsa/track/su-dsa-topic-wise-week1/problem/divisible-by-13
+**Link:** https://www.geeksforgeeks.org/batch/skill-up-dsa/track/su-dsa-daily-week1-day1/problem/divisible-by-13
 
 Given a number represented as a string s (which may be very large), check whether it is divisible by 13 or not.
 
