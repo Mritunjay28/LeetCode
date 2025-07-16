@@ -10,8 +10,14 @@ class Solution {
         // code here
         int rem=n%m;
         int max=-100001 ;
-        if((n+rem)%m==0)  max=Math.max(max,Math.abs(n+rem));
-        if((n-rem)%m==0)  max=Math.max(max,Math.abs(n-rem));
+        if((n+rem)%m==0)  max=Math.max(max,n+rem);
+        if((n-rem)%m==0) {
+            if(max==-100001) max=Math.max(max,n-rem);
+            else {
+                if(Math.abs(n+rem)> Math.abs(n-rem)) max= n+rem ;
+                else max=n-rem;
+            }
+        }
        return max;
     }
 }
