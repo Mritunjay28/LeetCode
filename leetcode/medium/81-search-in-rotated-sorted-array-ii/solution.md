@@ -1,6 +1,6 @@
 # 81. Search in Rotated Sorted Array II
 
-**Link:** https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/1452166365/
+**Link:** https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/1702108414/
 
 AmazonLinkedInAdobeFacebookThere is an integer array nums sorted in non-decreasing order (not necessarily with distinct values).
 
@@ -16,7 +16,7 @@ AmazonLinkedInAdobeFacebookThere is an integer array nums sorted in non-decreasi
             }
             else {
                 if(target<=nums[e] && nums[mid]<target) s=mid+1;
-                else e=mid+1;
+                else e=mid-1;
             }
         }
 
@@ -25,7 +25,7 @@ AmazonLinkedInAdobeFacebookThere is an integer array nums sorted in non-decreasi
 
         while(s<=e){
             int mid = s+(e-s)/2 ;
-    public boolean search(int[] nums, int target) {
         int s=0,e=nums.length-1;
-class Solution {
+    }
+}
 ```
